@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.kadiryaka.myenglishwords.activity.KelimeEkleActivity">
+
+    <TextView
+        android:id="@+id/kelimeadi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kelimeadi"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/ingilizce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kelimeadi"
+        android:hint="@string/ingilizce"/>
+
+    <EditText
+        android:id="@+id/turkce"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ingilizce"
+        android:hint="@string/turkce"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turkce"
+        />
+
+    <Button
+        android:id="@+id/ekleButon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:text="@string/ekle"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>

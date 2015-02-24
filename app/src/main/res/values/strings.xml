@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My English Words</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="antrenman">Antrenmana Başla</string>
+    <string name="kelimeekle">Yeni Kelime</string>
+    <string name="grupekle">Yeni Grup</string>
+    <string name="title_activity_grup__ekle_">Grup_Ekle_Activity</string>
+    <string name="grupadi">Grup adı gir</string>
+    <string name="ekle">Ekle</string>
+    <string name="kayitbasarili">Kayıt Başarılı</string>
+    <string name="kayithatali">Kayıt Hatalı</string>
+    <string name="title_activity_kelime_ekle">KelimeEkleActivity</string>
+    <string name="turkce">türkçe</string>
+    <string name="ingilizce">ingilizce</string>
+    <string name="rastgele">Rastgele Kelime Gelsin</string>
+    <string name="kelimeadi">Kelimeleri giriniz</string>
+    <string name="title_activity_antrenman">AntrenmanActivity</string>
+    <string name="cevir">Çevir</string>
+    <string name="ingturk">İngilizce-Türkçe</string>
+    <string name="turking">Türkçe-İngilizce</string>
+    <string name="ileri">İleri</string>
+    <string name="delete">Komple Sil</string>
+    <string name="bos">Boş deger girmeyiniz</string>
+    <string name="grupvar">Bu grup daha önce eklenmiş</string>
+    <string name="title_activity_grup_sil">GrupSilActivity</string>
+    <string name="title_activity_kelime_sil">KelimeSilActivity</string>
+    <string name="gruplar">Düzenle</string>
+
+</resources>

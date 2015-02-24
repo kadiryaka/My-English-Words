@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kadiryaka.myenglishwords" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:launchMode="singleInstance"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.Main_Activity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Grup_Ekle_Activity"
+            android:label="@string/title_activity_grup__ekle_"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".activity.Main_Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Main_Activity" />
+        </activity>
+        <activity
+            android:name=".activity.KelimeEkleActivity"
+            android:label="@string/title_activity_kelime_ekle"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".activity.Main_Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Main_Activity" />
+        </activity>
+
+        <activity
+                android:name=".activity.AntrenmanActivity"
+                android:label="@string/title_activity_antrenman"
+                android:launchMode="singleInstance"
+                android:parentActivityName=".activity.Main_Activity" >
+                <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".activity.Main_Activity" />
+        </activity>
+
+        <activity
+            android:name=".activity.GrupSilActivity"
+            android:label="@string/title_activity_grup_sil" >
+            android:parentActivityName=".activity.Main_Activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Main_Activity" />
+        </activity>
+        <activity
+            android:name=".activity.KelimeSilActivity"
+            android:label="@string/title_activity_kelime_sil" >
+        </activity>
+    </application>
+
+</manifest>

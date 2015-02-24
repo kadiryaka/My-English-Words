@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content" android:layout_width="wrap_content">
+    <item android:id="@+id/grupsil"
+        android:title="Grup Sil"/>
+    android:showAsAction="never"
+    <item android:id="@+id/kelimesil"
+        android:title="Kelime Sil" />
+    android:showAsAction="ifRoom"
+</menu>
